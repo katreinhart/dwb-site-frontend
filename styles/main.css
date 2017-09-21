@@ -7,13 +7,24 @@
 }
 
 .hero h1 {
-  padding: 20% 0 15px 65%;
+  padding: 20% 0 0px 65%;
   text-transform: lowercase;
 }
 
+.hero h6 {
+  padding: 5px 0 20px 65%;
+
+}
+
+.main {
+  padding: 20px;
+}
+
 footer {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   padding: 10px;
+  background-color: #ccc;
+  min-height: 35px;
 }
 
 footer p {
