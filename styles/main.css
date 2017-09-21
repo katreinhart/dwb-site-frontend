@@ -39,8 +39,30 @@ label {
   padding: 20px;
 }
 
+.about-hero {
+  background-image: url("../img/vladimir-kudinov-71455.jpg");
+  background-size: cover;
+  height: 150px;
+}
+
+.about-hero h1 {
+  padding: 60px 0 0px 65%;
+  text-transform: lowercase;
+}
+
+.about-hero h6 {
+  padding: 5px 0 12px 65%;
+  margin: 0;
+}
+
+.callout {
+  background-color: #ccc;
+  padding: 10px;
+
+}
+
 footer {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 10px;
   background-color: #ccc;
   min-height: 35px;
