@@ -1,4 +1,9 @@
-
+* {
+  /* solid black borders for CSS debugging
+  border: 1px solid black; */
+  box-sizing: border-box;
+  font-size: 16px;
+}
 
 .hero {
   background-image: url("../img/vladimir-kudinov-71455.jpg");
@@ -12,8 +17,22 @@
 }
 
 .hero h6 {
-  padding: 5px 0 20px 65%;
+  padding: 5px 0 12px 65%;
+  margin: 0;
+}
 
+.cta {
+  background-color: #ccc;
+  padding: 5px 0 ;
+}
+
+.cta .form-group {
+  margin: 0;
+}
+
+label {
+  font-style: italic;
+  margin-right: 15px;
 }
 
 .main {
