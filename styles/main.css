@@ -1,0 +1,30 @@
+
+
+.hero {
+  background-image: url("../img/vladimir-kudinov-71455.jpg");
+  background-size: cover;
+  min-height: 300px;
+}
+
+.hero h1 {
+  padding: 20% 0 15px 65%;
+  text-transform: lowercase;
+}
+
+footer {
+  font-size: 0.7rem;
+  padding: 10px;
+}
+
+footer p {
+  float: left;
+}
+
+footer ul {
+  list-style: none;
+  float: right;
+}
+
+footer li {
+  display: inline;
+}
