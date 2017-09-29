@@ -12,12 +12,12 @@
 }
 
 .hero h1 {
-  padding: 20% 0 0px 65%;
+  padding: 20% 0 0px 5%;
   text-transform: lowercase;
 }
 
 .hero h6 {
-  padding: 5px 0 12px 65%;
+  padding: 5px 0 12px 5%;
   margin: 0;
 }
 
@@ -79,4 +79,33 @@ footer ul {
 
 footer li {
   display: inline;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    font-size: 21px;
+  }
+  .hero h1 {
+    padding: 20% 0 0px 65%;
+  }
+  .hero h6 {
+    padding: 5px 0 12px 65%;
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    /*background-color: #012345;*/
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    /*background-color: #098765;*/
+  }
 }
